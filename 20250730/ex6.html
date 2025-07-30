@@ -7,9 +7,10 @@
 </head>
 <body>
     <script>
-let real = Number(prompt("Insira um valor em reais:"))
-let cotação = Number(prompt("Insira a cotação do dólar:"))
-let dolar = real / cotação
+let dolar  = Number(prompt("Insira um valor em dólar:"))
+let cotação = Number(prompt("Insira a cotação do real:"))
+let real = dolar * cotação
+alert ("Sinto muito, mas U$" + dolar + " é equivalente a R$" + real)
 alert ("Sinto muito, mas R$" + real + " é equivalente a U$" + dolar)
     </script>
 </body>
